@@ -5,7 +5,7 @@ const Question = ({question, dispatch, answer}) => {
 
   return (
     <>
-    <h4> {question.question}</h4>
+    <h4 className="question"> {question.question}</h4>
         <Options 
         question={question} 
         dispatch= {dispatch}

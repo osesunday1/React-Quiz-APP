@@ -103,7 +103,7 @@ h4 {
 .start {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  width: 90%;
 }
 
 .progress {
@@ -278,10 +278,46 @@ progress {
 
 @media (max-width: 600px) {
   .app {
-    /* Styles for screens smaller than 600px */
-    width: 90%; /* Make the app take full width on small screens */
-    padding: 10px; /* Add some padding */
-    flex-direction: column; /* Ensure column layout for small screens */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    height: 100vh;
+
+  }
+
+  .start {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .options{
+    width: 90%;
     margin: 0 auto;
   }
+
+  .question{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 4%;
+  }
+
+  .btn-ui {
+    margin-top:4%;
+  }
+
+  .timer{
+    margin-top: 4%;
+  }
+
+  .progress{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 4%;
+  }
+  
 }
