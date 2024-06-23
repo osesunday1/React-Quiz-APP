@@ -276,3 +276,12 @@ progress {
 }
 
 
+@media (max-width: 600px) {
+  .app {
+    /* Styles for screens smaller than 600px */
+    width: 90%; /* Make the app take full width on small screens */
+    padding: 10px; /* Add some padding */
+    flex-direction: column; /* Ensure column layout for small screens */
+    margin: 0 auto;
+  }
+}
