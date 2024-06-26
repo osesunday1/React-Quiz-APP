@@ -323,6 +323,16 @@ progress {
     font-size: 4.6rem;
   }
   
+  h2 {
+    font-size: 2.6rem;
+    margin-bottom: 2rem;
+  }
+  
+  h3 {
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin-bottom: 4rem;
+  }
 
   
 }
