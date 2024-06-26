@@ -285,7 +285,7 @@ progress {
     width: 100%;
     margin: 0 auto;
     height: 100vh;
-    background-color: #b11914;
+    background-color: #5bb114;
 
   }
 
@@ -293,7 +293,7 @@ progress {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 70%;
   }
 
   .options{
